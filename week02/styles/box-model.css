@@ -9,9 +9,9 @@
 
 .callout img {
 	float: right;
-	margin: 0 0 10px 15px;
+	margin: 10px;
 	border: 1px solid #000;
-	padding: 3px;
+	padding: 10px;
 	background-color: #bbb;
 	width: 100px;
 	height: auto;
