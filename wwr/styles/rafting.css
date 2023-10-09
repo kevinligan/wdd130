@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap);
+:root {
+    --primary-color: #273A41;
+    --secondary-color: #BF372A;
+    --accent1-color: #D96E30;
+    --accent2-color: #F4EDCC;
+
+    --heading-font: 'Alegreya Sans SC', sans serif;
+    --paragraph-font: 'Bebas Neue', sans serif;
+
+    --nav-background-color: #F4EDCC;
+    --nav-link-color: #D96E30;
+    --nav-hover-link-color: #D96E30;
+    --nav-hover-background-color: #F4EDCC;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    padding-bottom: 20px;
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
+}
+main {
+    padding-top: 20px;
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    width: 50%;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    margin-left: 4.5rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.hero {
+height: auto;
+position: relative;
+text-align: center;
+}
+.hero img {
+    width: 100%;
+}
+.company h1{
+    position: absolute;
+    top: 300px;
+    left: 550px;
+}
+.employee img {
+    position: absolute;
+    top: 400px;
+    right: 540px;
+}
+.purpose p {
+    position: absolute;
+    top: 600px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+    line-height: 1;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 125px;
+}
+section{
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.history h2 {
+    position: relative;
+    left: 525px;
+}
+.adventure h2 {
+    position: relative;
+    left: 450px;
+}
