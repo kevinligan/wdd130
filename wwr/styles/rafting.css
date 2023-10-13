@@ -50,7 +50,7 @@ main {
 .header nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
-.header nav a:hover {
+nav a:hover {
     margin-bottom: 3.5rem;
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
