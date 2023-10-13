@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400&family=Bebas+Neue&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400&family=Bebas+Neue&display=swap);
 :root {
     --primary-color: #273A41;
     --secondary-color: #BF372A;
@@ -14,7 +14,6 @@
     --nav-hover-background-color: #F4EDCC;
 }
 body{
-    display: inline-flexbox;
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
