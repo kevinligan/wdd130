@@ -24,6 +24,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
     padding: 20px;
     padding-bottom: 20px;
     color: var(--accent1-color);
@@ -32,34 +34,29 @@ header {
 main {
     padding-top: 20px;
 }
-p {
-    padding: 25px;
-}
-nav {
-    background-color: var(--nav-background-color);
+.header {
     font-size: 1.2rem;
     display: inline-flex;
-    position: absolute;
-    margin-left: 10rem;
     margin-top: 5rem;
-    width: 50%;
+    margin-left: 5rem;
 }
-nav a {
+.header a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
     margin-left: 4.5rem;
 }
-nav a:link, nav a:visited {
+.header nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
-nav a:hover {
+.header nav a:hover {
+    margin-bottom: 3.5rem;
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
 body {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -73,41 +70,41 @@ text-align: left;
 }
 .hero h1{
     position: absolute;
-    top: 50px;
-    left: 500px;
-    background-size: inherit;
+    top: 75px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
     background-color: rgba(255, 255, 255, 0.5);
 }
-.hero article img {
-    position: absolute;
-    top: 350px;
-    right: 30px;
-    width: 250px;
-    float: right;
-    width: 250px;
-    margin-left: 20px;
-}
-article p{
+.hero article {
     position: absolute;
     top: 300px;
-    font-size: 1.1rem;
-    line-height: 1;
-    margin-right: 270px;
+    background-color: rgba(159, 152, 236, 0.5);
 }
-section p {
-    position: relative;
-    top: 10px;
+.hero2 img {
+    float: right;
+    width: 150px;
+    margin-top: 3rem;
+    margin-right: 3rem;
 }
-section h2 {
-    position: relative;
-    left: 20px;
-    text-align: left;
-}
-section img {
-    position: relative;
+.hero2 p {
+    padding: 25px;
     display: flex;
 }
-footer p{
-    position: relative;
+.adventure h3, img {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
     text-align: left;
+    left: 0px;
+}
+footer p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sociallinks img {
+    display: inline-flex;
 }
