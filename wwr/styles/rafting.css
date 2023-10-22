@@ -48,7 +48,7 @@ main {
     color: var(--nav-link-color);
 }
 .navigation a:hover {
-    margin-bottom: 3.5rem;
+    margin-bottom: 5.9rem;
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
