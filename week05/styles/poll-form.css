@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400&family=Bebas+Neue&display=swap);
+:root {
+    --primary-color: #273A41;
+    --secondary-color: #BF372A;
+    --accent1-color: #D96E30;
+    --accent2-color: #F4EDCC;
+
+    --heading-font: 'Alegreya Sans SC', sans serif;
+    --paragraph-font: 'Bebas Neue', sans serif;
+
+    --nav-background-color: #F4EDCC;
+    --nav-link-color: #D96E30;
+    --nav-hover-link-color: #D96E30;
+    --nav-hover-background-color: #F4EDCC;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    background: #ffffff;
+}
+header {
+    font-family: var(--heading-font);
+    margin: 0 auto;
+    width: 650px;
+}
+h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid var(--accent1-color);
+    border-radius: 0.5rem;
+    background-color: var(--accent2-color);
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid var(--secondary-color);
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+label, input, button, select, textarea {
+    font-family: var(--paragraph-font);
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: rgb(136, 127, 127);
+    color: var(--primary-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: var(--accent1-color);
+}
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--primary-color);
+    border-top: 1px solid #BF372A;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
