@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | Basic HTML & CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+<html>
+<body>
+  <header>
+    <h1>Basic HTML & CSS Quiz</h1>
+  </header>
+    <form action="submit_quiz.php" method="post">
+        <!-- Question 1: Fill in the blank -->
+        <label for="q1">Question 1: What does HTML stand for?</label>
+        <input type="text" id="q1" name="q1" required>
+
+        <!-- Question 2: Short answer -->
+        <label for="q2">Question 2: Explain the purpose of CSS.</label>
+        <textarea id="q2" name="q2" rows="4" cols="50" placeholder="styles" required></textarea>
+
+        <!-- Question 3: Dropdown -->
+        <label for="q3">Question 3: What does CSS select in HTML?</label>
+        <select id="q3" name="q3" required>
+            <option value="" selected disabled>Select One...</option>
+            <option value="element">HTML elements</option>
+            <option value="class">CSS classes</option>
+            <option value="id">HTML IDs</option>
+        </select>
+
+        <!-- Question 4: Integer answer -->
+        <label for="q4">Question 4: How many heading levels are there in HTML?</label>
+        <input type="number" id="q4" name="q4" required>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+</html>
