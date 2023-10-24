@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400&family=Bebas+Neue&display=swap);
+:root {
+    --primary-color: #273A41;
+    --secondary-color: #BF372A;
+    --accent1-color: #D96E30;
+    --accent2-color: #F4EDCC;
+
+    --heading-font: 'Alegreya Sans SC', sans serif;
+    --paragraph-font: 'Bebas Neue', sans serif;
+
+    --nav-background-color: #F4EDCC;
+    --nav-link-color: #D96E30;
+    --nav-hover-link-color: #D96E30;
+    --nav-hover-background-color: #F4EDCC;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    padding: 20px;
+    padding-bottom: 20px;
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
+}
+main {
+    padding-top: 20px;
+}
+.navigation {
+    font-size: 1.2rem;
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.navigation a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    margin-left: 4.5rem;
+}
+.navigation nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+.navigation a:hover {
+    margin-bottom: 5.9rem;
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+body {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.company-info {
+    border: 1px solid black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.company-info h1 {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.employee-profiles {
+    border: 1px solid black;
+}
+.employee {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.employee-profiles h2 {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.employee img {
+    width: 150px;
+    height: auto;
+} 
+.employee figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.employee figcaption {
+    text-align: center;
+    color: var(--primary-color);
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid var(--accent1-color);
+    border-radius: 0.5rem;
+    background-color: var(--accent2-color);
+    display: grid;
+}
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+label, input, button, select, textarea {
+    font-family: var(--paragraph-font);
+}
+label {
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: rgb(136, 127, 127);
+    color: var(--primary-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 10rem;
+    margin-left: 14.5rem;
+}
+button:hover {
+    background-color: var(--accent1-color);
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+footer {
+    text-align: center;
+}
+footer p {
+    color: #000000;
+    margin-top: 1em;
+    border-top: 1px solid #000;
+}
+.sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sociallinks img {
+    margin: 0 10px;
+}

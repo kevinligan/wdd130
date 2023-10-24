@@ -6,7 +6,7 @@
     <title>Rafting Site: Contact Us | KEVIN LIGAN</title>
     <meta name="description" content="Contact us">
     <meta name="author" content="Kevin Ligan">
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
     <header>
@@ -15,7 +15,7 @@
             <a href="https://kevinligan.github.io/wdd130/">Home</a>
             <a href="https://kevinligan.github.io/wdd130/wwr/about.html">About Us</a>
             <a href="#">Trips</a>
-            <a href="#">Contact Us</a>
+            <a href="https://kevinligan.github.io/wdd130/wwr/contact.html">Contact Us</a>
         </nav>
     </header>
     <main>
@@ -35,19 +35,20 @@
         <section class="employee-profiles">
             <h2>Our Team</h2>
             <div class="employee">
+                <figure>
                 <img src="images/johndoe.jpg" alt="Employee 1" width="150">
-                <p>John Doe<br>Lead Guide</p>
-            </div>
-            <div class="employee">
+                <figcaption>John Doe<br>Lead Guide</figcaption>
+                </figure>
+                <figure>
                 <img src="images/janesmith.png" alt="Employee 2" width="150">
-                <p>Jane Smith<br>River Expert</p>
-            </div>
-            <div class="employee">
+                <figcaption>Jane Smith<br>River Expert</figcaption>
+                </figure>
+                <figure>
                 <img src="images/tomjohnson.jpg" alt="Employee 3" width="150">
-                <p>Tom Johnson<br>Adventure Specialist</p>
+                <figcaption>Tom Johnson<br>Adventure Specialist</figcaption>
+                </figure>
             </div>
         </section>
-
         <section class="contact-form">
             <h2>Contact Us</h2>
             <form action="submit_contact.php" method="post">
@@ -78,7 +79,7 @@
                     <label for="user-message">Message:</label>
                     <textarea id="user-message" name="user-message" rows="4" required></textarea>
                 </div>
-                <div class="form-item">
+                <div class="checkbox">
                     <input type="checkbox" id="subscribe-newsletter" name="subscribe-newsletter">
                     <label for="subscribe-newsletter">Please subscribe me to the monthly newsletter</label>
                 </div>

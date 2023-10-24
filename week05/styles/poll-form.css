@@ -86,14 +86,6 @@ button {
 button:hover {
     background-color: var(--accent1-color);
 }
-footer {
-    margin: 1rem auto 0;
-    width: 650px;
-    text-align: center;
-    font-size: 0.8em;
-    color: #777;
-    border-top: 1px solid #BF372A;
-}
 .form-item {
     display: grid;
     align-items: center;
@@ -108,4 +100,12 @@ footer {
 }
 .column3 label {
     text-align: center;
+}
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #BF372A;
 }
