@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafting Site: Contact Us Page | KEVIN LIGAN</title>
+    <title>Rafting Site: Contact Us | KEVIN LIGAN</title>
     <meta name="description" content="Contact us">
     <meta name="author" content="Kevin Ligan">
     <link rel="stylesheet" href="styles/rafting.css">
@@ -13,18 +13,83 @@
         <img src="images/rafting-site.png" alt="Rafting Site Logo" width="200">
         <nav class="navigation">
             <a href="https://kevinligan.github.io/wdd130/">Home</a>
-            <a href="https://kevinligan.github.io/wdd130/wwr/about.html">About</a>
+            <a href="https://kevinligan.github.io/wdd130/wwr/about.html">About Us</a>
             <a href="#">Trips</a>
-            <a href="#">Contact</a>
+            <a href="#">Contact Us</a>
         </nav>
     </header>
     <main>
-      
+        <section class="company-info">
+            <h2>Company Information</h2>
+            <address>
+                <p>Corrales Ave</p>
+                <p>Cagayan De Oro, Misamis Oriental 9000</p>
+                <p>Phone: (+63) 912 345 6989</p>
+                <p>Email: info@raftingsite.com</p>
+            </address>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.175039681425!2d124.6488936!3d8.482355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2dbbdfa2743%3A0x53d89c6be5cb12df!2sKagay%20Whitewater%20Rafting!5e0!3m2!1sen!2sus!4v1698185615731!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Our Team</h2>
+            <div class="employee">
+                <img src="images/johndoe.jpg" alt="Employee 1" width="150">
+                <p>John Doe<br>Lead Guide</p>
+            </div>
+            <div class="employee">
+                <img src="images/janesmith.png" alt="Employee 2" width="150">
+                <p>Jane Smith<br>River Expert</p>
+            </div>
+            <div class="employee">
+                <img src="images/tomjohnson.jpg" alt="Employee 3" width="150">
+                <p>Tom Johnson<br>Adventure Specialist</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_contact.php" method="post">
+                <div class="form-item">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required>
+                </div>
+                <div class="form-item">
+                    <label for="user-email">Your Email:</label>
+                    <input type="email" id="user-email" name="user-email" required>
+                </div>
+                <div class="form-item">
+                    <label>Purpose of Message:</label>
+                    <div>
+                        <input type="radio" id="general-inquiry" name="message-purpose" value="General Inquiry" required>
+                        <label for="general-inquiry">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation-question" name="message-purpose" value="Reservation Question" required>
+                        <label for="reservation-question">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="website-suggestion" name="message-purpose" value="Website Suggestion" required>
+                        <label for="website-suggestion">Website Suggestion</label>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label for="user-message">Message:</label>
+                    <textarea id="user-message" name="user-message" rows="4" required></textarea>
+                </div>
+                <div class="form-item">
+                    <input type="checkbox" id="subscribe-newsletter" name="subscribe-newsletter">
+                    <label for="subscribe-newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <div class="form-item">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
-       <p>
-        ©2024 🌴The Rafting Site | Kevin Ligan🌴
-       </p>
+        <p>©2024 🌴The Rafting Site | Kevin Ligan🌴</p>
         <nav class="sociallinks">
             <a href="https://www.facebook.com/kevin.ligan.9" target="_blank">
                 <img src="images/facebook.png" alt="Facebook" width="50">
