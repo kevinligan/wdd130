@@ -80,6 +80,8 @@ button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    width: 10rem;
+    margin-left: 14.5rem;
 }
 button:hover {
     background-color: var(--accent1-color);
@@ -89,7 +91,7 @@ footer {
     width: 650px;
     text-align: center;
     font-size: 0.8em;
-    color: var(--primary-color);
+    color: #777;
     border-top: 1px solid #BF372A;
 }
 .form-item {
@@ -97,9 +99,13 @@ footer {
     align-items: center;
 }
 .column1 {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 1fr 4rem;
     margin: 0.5rem 0;
 }
 .column2 {
     grid-template-columns: 1fr 2fr;
+    padding: 1rem;
+}
+.column3 label {
+    text-align: center;
 }
