@@ -107,6 +107,12 @@ form {
     background-color: var(--accent2-color);
     display: grid;
 }
+.contact-form {
+    border: 1px solid black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
 legend {
     padding: 0.5rem;
     color: navy;
@@ -164,4 +170,7 @@ footer p {
 }
 .sociallinks img {
     margin: 0 10px;
+}
+.wireframe {
+    float: left;
 }
