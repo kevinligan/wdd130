@@ -77,7 +77,6 @@ figure {
     width: 230px;
     height: 325px;
     border: 1px solid black;
-    padding: auto;
     justify-content: space-evenly;
 }
 .trip-descriptions {
