@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400&family=Bebas+Neue&display=swap);
+:root {
+    --primary-color: #273A41;
+    --secondary-color: #BF372A;
+    --accent1-color: #D96E30;
+    --accent2-color: #F4EDCC;
+
+    --heading-font: 'Alegreya Sans SC', sans serif;
+    --paragraph-font: 'Bebas Neue', sans serif;
+
+    --nav-background-color: #F4EDCC;
+    --nav-link-color: #D96E30;
+    --nav-hover-link-color: #D96E30;
+    --nav-hover-background-color: #F4EDCC;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    padding: 20px;
+    padding-bottom: 20px;
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
+}
+main {
+    padding-top: 20px;
+}
+.navigation {
+    font-size: 1.2rem;
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.navigation a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    margin-left: 4.5rem;
+}
+.navigation nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+.navigation a:hover {
+    margin-bottom: 5.9rem;
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+body {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section {
+    border: 1px solid black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.call-to-action {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.trip {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+figure {
+    width: 230px;
+    height: 325px;
+    border: 1px solid black;
+    padding: auto;
+    justify-content: space-evenly;
+}
+.trip-descriptions {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.trip img {
+    padding: 1rem;
+    width: 200px;
+    height: auto;
+} 
+.trip p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.trip h3 {
+    text-align: center;
+    color: var(--primary-color);
+}
+/* CSS for the trip-table section */
+.trip-table {
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem;
+}
+
+.trip-table td {
+    text-align: left;
+}
+
+.trip-table tbody tr:nth-child(odd) {
+    background-color: var(--accent2-color);
+}
+
+.trip-table tbody tr:nth-child(even) {
+    background-color: var(--nav-background-color);
+}
+footer {
+    text-align: center;
+}
+footer p {
+    color: #000000;
+    margin-top: 1em;
+    border-top: 1px solid #000;
+}
+.sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sociallinks img {
+    margin: 0 10px;
+}
+.wireframe {
+    float: left;
+}
