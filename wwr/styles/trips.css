@@ -101,7 +101,6 @@ figure {
     text-align: center;
     color: var(--primary-color);
 }
-/* CSS for the trip-table section */
 .trip-table {
     border: 1px solid var(--primary-color);
     padding: 1rem;
@@ -116,27 +115,22 @@ figure {
     width: 100%;
     border-collapse: collapse;
 }
-
 .trip-table th {
     background-color: var(--primary-color);
     color: var(--accent1-color);
     padding: 0.5rem;
     text-align: left;
 }
-
 .trip-table th, .trip-table td {
     border: 1px solid var(--primary-color);
     padding: 0.5rem;
 }
-
 .trip-table td {
     text-align: left;
 }
-
 .trip-table tbody tr:nth-child(odd) {
     background-color: var(--accent2-color);
 }
-
 .trip-table tbody tr:nth-child(even) {
     background-color: var(--nav-background-color);
 }
