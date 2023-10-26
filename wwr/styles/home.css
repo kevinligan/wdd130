@@ -18,6 +18,11 @@ body{
     max-width: 960px;
     padding: 20px;
 }
+section {
+    border: 1px solid black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -57,18 +62,28 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
-section {
+.hero {
     border: 1px solid black;
     padding: 1rem;
     margin-bottom: 1rem;
 }
-.call-to-action {
+.hero h1 {
     position: relative;
     left: 0px;
     right: 0px;
     text-align: center;
 }
-.trip {
+.hero p {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.hero img {
+width: 55rem;
+padding: 1.5rem;
+}
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -79,53 +94,55 @@ figure {
     border: 1px solid black;
     justify-content: space-evenly;
 }
-.trip-descriptions {
+.purpose-and-offerings {
     position: relative;
     left: 0px;
     right: 0px;
     text-align: center;
 }
-.trip img {
+.grid img {
     padding: 1rem;
     width: 200px;
     height: auto;
 }
-.trip h3 {
+.grid h3 {
     text-align: center;
     color: var(--primary-color);
 }
-.trip-table {
-    border: 1px solid var(--primary-color);
+form {
+    width: 650px;
+    margin: 0 auto;
     padding: 1rem;
+    border: 1px solid var(--accent1-color);
+    border-radius: 0.5rem;
+    background-color: var(--accent2-color);
+    display: grid;
 }
-.trip-table h2 {
+.newsletter {
     position: relative;
     left: 0px;
     right: 0px;
     text-align: center;
 }
-.trip-table table {
-    width: 100%;
-    border-collapse: collapse;
-}
-.trip-table th {
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
+input, button {
+    font-family: var(--paragraph-font);
     padding: 0.5rem;
-    text-align: left;
+    font-size: 1.1rem;
+    margin: .5rem;
 }
-.trip-table th, .trip-table td {
-    border: 1px solid var(--primary-color);
-    padding: 0.5rem;
+button {
+    margin: 1rem;
+    background-color: rgb(136, 127, 127);
+    color: var(--primary-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 10rem;
+    margin-left: 14.5rem;
 }
-.trip-table td {
-    text-align: left;
-}
-.trip-table tbody tr:nth-child(odd) {
-    background-color: var(--accent2-color);
-}
-.trip-table tbody tr:nth-child(even) {
-    background-color: var(--nav-background-color);
+button:hover {
+    background-color: var(--accent1-color);
 }
 footer {
     text-align: center;
