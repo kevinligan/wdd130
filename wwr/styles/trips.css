@@ -106,7 +106,12 @@ figure {
     border: 1px solid var(--primary-color);
     padding: 1rem;
 }
-
+.trip-table h2 {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
 .trip-table table {
     width: 100%;
     border-collapse: collapse;
