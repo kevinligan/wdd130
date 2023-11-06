@@ -15,14 +15,10 @@
 }
 body{
     font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
+    background-size: cover;
+    position: relative;
 }
-section {
-    border: 1px solid black;
-    padding: 1rem;
-    margin-bottom: 1rem;
-}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -30,72 +26,65 @@ h1, h2, h3, h4, h5, h6 {
 header {
     display: grid;
     grid-template-columns: 200px 1fr;
-    padding: 20px;
-    padding-bottom: 20px;
     color: var(--accent1-color);
-    background-color: var(--primary-color);
+    margin-left: 5rem;
 }
-main {
-    padding-top: 20px;
+.header img {
+    border-left: ;
 }
 .navigation {
     font-size: 1.2rem;
     display: flex;
-    margin-top: 5rem;
-    margin-left: 5rem;
+    justify-content: space-around;
 }
 .navigation a {
     color: var(--nav-link-color);
     text-decoration: none;
     margin-left: 4.5rem;
-}
-.navigation nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 .navigation a:hover {
-    margin-bottom: 5.9rem;
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-body {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
+
 .hero {
-    border: 1px solid black;
-    padding: 1rem;
     margin-bottom: 1rem;
 }
 .hero h1 {
-    position: relative;
     left: 0px;
     right: 0px;
     text-align: center;
 }
 .hero p {
-    position: relative;
     left: 0px;
     right: 0px;
     text-align: center;
 }
 .hero img {
-width: 55rem;
-padding: 1.5rem;
+    position: relative;
+    width: 83.3rem;
+    height: 30rem;
+}
+.hero-text {
+    position: absolute;
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
 }
 figure {
-    width: 230px;
     height: 325px;
     border: 1px solid black;
-    justify-content: space-evenly;
 }
 .purpose-and-offerings {
-    position: relative;
     left: 0px;
     right: 0px;
     text-align: center;
@@ -103,7 +92,6 @@ figure {
 .grid img {
     padding: 1rem;
     width: 200px;
-    height: auto;
 }
 .grid h3 {
     text-align: center;
